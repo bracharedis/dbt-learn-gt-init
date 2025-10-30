@@ -1,0 +1,13 @@
+default:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      threads: 16
+      authenticator: externalbrowser
+      account: REDIS-REDIS_DATA
+      user: BRACHA@REDIS.COM
+      database: ANALYTICS
+      warehouse: TRANSFORMING
+      schema: DBT_BRACHA
+      role: TRANSFORMER
